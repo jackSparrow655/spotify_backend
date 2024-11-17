@@ -13,7 +13,7 @@ const userRouter = require('./src/routes/userRoute')
 
 //middleware
 app.use(cors({
-    origin:[process.env.FRONTEND_URI, "https://spotify-frontend-cyan.vercel.app"],
+    origin:[process.env.FRONTEND_URI, "https://spotify-frontend-phi-nine.vercel.app"],
     credentials: true
 }))
 app.use(fileUpload({
